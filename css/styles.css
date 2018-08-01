@@ -1,4 +1,42 @@
-.column {
+body {
+  background-color: grey;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.column1 {
+  width: 300px;
+  float:left;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+
+h3 {
+  font-family: cursive;
+}
+
+.column2 {
   width: 300px;
   float: left;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  background-color: red;
 }
+
+.column2 h3 {
+  font-size: 50px;
+}
+
+.column3 {
+  width: 300px;
+  float: left;
+  border: 3px solid white;
+  color: green;
+  text-align: center;
+  padding: 6px;
+  background-color: yellow
+  }
